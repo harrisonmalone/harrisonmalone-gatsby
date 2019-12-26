@@ -2,8 +2,6 @@
 title: "Games List"
 ---
 
-## Introduction 
-
 Yesterday I went through a bunch of old games to decipher if everything still worked. In the end what I realized was how much I still love the PlayStation 2 and how I wanted to buy a couple of games for it. The PlayStation 2 definitely has the most emotional attachment for me and this is probably because I played it so much as a kid.
 
 ## Testing 
