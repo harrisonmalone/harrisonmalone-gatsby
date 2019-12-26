@@ -1,0 +1,21 @@
+.about {
+  display: flex; height: 250px; align-items: center;
+}
+.shortAbout {
+  width: 70%;
+}
+.shortAbout a {
+  background: cadetblue; text-decoration: none; color: inherit;
+}
+.shortAbout h1 {
+  font-size: 40px;
+}
+.shortAbout h5 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .shortAbout {
+    width: 100%;
+  }
+}

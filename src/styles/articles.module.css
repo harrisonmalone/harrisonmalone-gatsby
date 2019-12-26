@@ -1,0 +1,38 @@
+.articlesTitle {
+  display: flex; align-items: center;
+}
+.articlesTitle h2 {
+  margin-right: 20px;
+}
+.viewAllBtn {
+  padding: 5px 10px;
+  margin: 0px;
+  background: #e5e5e5;
+  border-radius: 2px;
+}
+.viewAllBtn p {
+  margin: 0px;
+}
+.viewAllBtn p a {
+  text-decoration: none;
+  color: inherit;
+}
+.article:hover {
+  background: #e5e5e5;
+  border-radius: 2px;
+}
+.article h4 {
+  margin: 0px;
+  padding: 15px 0px 15px 10px;
+  font-weight: 400;
+}
+.article a {
+  text-decoration: none;
+  color: inherit;
+}
+.date {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
