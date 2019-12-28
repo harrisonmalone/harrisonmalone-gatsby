@@ -1,13 +1,13 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { Icon } from '@iconify/react';
-import backspaceOutline from '@iconify/icons-mdi/backspace-outline';
-import styles from '../styles/header.module.css'
+import React from "react"
+import { Link } from "gatsby"
+import { Icon } from "@iconify/react"
+import backspaceOutline from "@iconify/icons-mdi/backspace-outline"
+import styles from "../styles/header.module.css"
 
 const icon = {
   marginRight: "10px",
-  fontSize: "25px", 
-  background: "cadetblue"
+  fontSize: "25px",
+  background: "cadetblue",
 }
 
 const Header = () => (

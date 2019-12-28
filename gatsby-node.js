@@ -1,5 +1,5 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const path = require('path')
+const path = require("path")
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -14,7 +14,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 }
 
 exports.createPages = async ({ graphql, actions }) => {
-   const { createPage } = actions
+  const { createPage } = actions
   const result = await graphql(`
     query MyQuery {
       allMarkdownRemark {

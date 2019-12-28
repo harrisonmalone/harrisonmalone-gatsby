@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 import { Helmet } from "react-helmet"
-import './layout.css'
-import Header from './header'
+import "./layout.css"
+import Header from "./header"
 
-const Layout = (props) => {
+const Layout = props => {
   return (
     <>
       <Helmet>

@@ -1,8 +1,8 @@
-import React from 'react'
-import Main from '../components/main'
-import Articles from '../components/articles'
-import Layout from '../components/layout'
-import { graphql } from 'gatsby'
+import React from "react"
+import Main from "../components/main"
+import Articles from "../components/articles"
+import Layout from "../components/layout"
+import { graphql } from "gatsby"
 
 export const query = graphql`
   query {
@@ -28,7 +28,7 @@ export const query = graphql`
   }
 `
 
-export default (props) => {
+export default props => {
   return (
     <Layout>
       <Main />

@@ -6,7 +6,7 @@ module.exports = {
         name: `src`,
         path: `${__dirname}/src/`,
       },
-    },    
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -15,13 +15,13 @@ module.exports = {
             resolve: `gatsby-remark-prismjs`,
             options: {
               aliases: {
-                js: "javascript"
-              }
-            }
-          }
-        ]
-      }
+                js: "javascript",
+              },
+            },
+          },
+        ],
+      },
     },
-    'gatsby-plugin-react-helmet',
-  ]
+    "gatsby-plugin-react-helmet",
+  ],
 }

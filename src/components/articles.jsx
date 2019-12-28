@@ -1,15 +1,17 @@
-import React from 'react'
-import styles from '../styles/articles.module.css'
-import { Link } from 'gatsby'
+import React from "react"
+import styles from "../styles/articles.module.css"
+import { Link } from "gatsby"
 
-export default (props) => {
+export default props => {
   const articles = props.data.allMarkdownRemark.edges
   return (
     <div className={styles.articles}>
       <div className={styles.articlesTitle}>
         <h2>Latest Articles</h2>
         <div className={styles.viewAllBtn}>
-          <p><a href="/archive">View all</a></p>
+          <p>
+            <a href="/archive">View all</a>
+          </p>
         </div>
       </div>
       <div className={styles.articlesList}>
@@ -17,9 +19,12 @@ export default (props) => {
           const { frontmatter, fields, parent } = article.node
           return (
             <div className={styles.article} key={index}>
-                <Link to={fields.slug}>
-                  <h4>{frontmatter.title}<span className={styles.date}>{parent.birthTime}</span></h4>
-                </Link>
+              <Link to={fields.slug}>
+                <h4>
+                  {frontmatter.title}
+                  <span className={styles.date}>{parent.birthTime}</span>
+                </h4>
+              </Link>
             </div>
           )
         })}
