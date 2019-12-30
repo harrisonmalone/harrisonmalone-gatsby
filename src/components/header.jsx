@@ -7,7 +7,7 @@ import styles from "../styles/header.module.css"
 const icon = {
   marginRight: "10px",
   fontSize: "25px",
-  background: "cadetblue",
+  background: "mediumseagreen",
 }
 
 const Header = () => (
