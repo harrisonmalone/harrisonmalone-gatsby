@@ -16,7 +16,7 @@ Last of all there's Twitter. I like the premise and simplicity of Twitter but it
 
 I have thousands of tweets and images from Twitter that I've stored away on a hard drive.
 
-So then where am I going to spend my time instead? Well I'm going to focus on reading, gaming and watching proper television shows (like Mr. Robot). I also can't really delete YouTube but I'll monitor and try to limit my intake of content there.
+So then where am I going to spend my time instead? Well I'm going to focus on reading, gaming and watching proper television shows (like [Mr. Robot](https://en.m.wikipedia.org/wiki/Mr._Robot)). I also can't really delete YouTube but I'll monitor and try to limit my intake of content there.
 
 I'm also going to focus on my relationships with people. Being a good friend and being there for people when they need me.
 
