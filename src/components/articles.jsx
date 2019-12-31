@@ -3,7 +3,7 @@ import styles from "../styles/articles.module.css"
 import { Link } from "gatsby"
 
 export default props => {
-  const articles = props.data.allMarkdownRemark.edges
+  const articles = props.data.allMarkdownRemark.edges.sort((a, b) => Date.parse(b.node.parent.birthTime) - Date.parse(a.node.parent.birthTime))
   return (
     <div className={styles.articles}>
       <div className={styles.articlesTitle}>

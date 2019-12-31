@@ -6,7 +6,7 @@ import { graphql } from "gatsby"
 
 export const query = graphql`
   query {
-    allMarkdownRemark(limit: 10, sort: {fields: id, order: DESC}) {
+    allMarkdownRemark(limit: 10) {
       totalCount
       edges {
         node {
@@ -19,7 +19,7 @@ export const query = graphql`
           html
           parent {
             ... on File {
-              birthTime(formatString: "DD-MM-YYYY")
+              birthTime(formatString: "YYYY-MM-DD")
             }
           }
         }

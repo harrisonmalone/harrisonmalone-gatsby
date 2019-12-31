@@ -7,7 +7,7 @@ import styles from "../styles/archive.module.css"
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: {fields: id, order: DESC}) {
+    allMarkdownRemark {
       totalCount
       edges {
         node {
@@ -21,7 +21,7 @@ export const query = graphql`
             ... on File {
               id
               name
-              birthTime(formatString: "DD-MM-YYYY")
+              birthTime(formatString: "YYYY-MM-DD")
             }
           }
         }
@@ -31,6 +31,7 @@ export const query = graphql`
 `
 
 export default props => {
+  const articles = props.data.allMarkdownRemark.edges.sort((a, b) => Date.parse(b.node.parent.birthTime) - Date.parse(a.node.parent.birthTime))
   return (
     <Layout>
       <ArticleLayout>
@@ -41,7 +42,7 @@ export default props => {
           </span>
         </h1>
         <ul>
-          {props.data.allMarkdownRemark.edges.map((article, index) => {
+          {articles.map((article, index) => {
             const { frontmatter, fields, parent } = article.node
             return (
               <li key={index}>
