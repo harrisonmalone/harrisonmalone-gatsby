@@ -6,9 +6,9 @@ The end of my time using Facebook, Instagram and Twitter has arrived. This morni
 
 I've been a user of Facebook since 2009. I used it properly from 2010 - 2013. From then on it was all downhill. The service was in it's heyday in the later days of my high school education and first year at university. It was fun to be tagged in photos and get "cool" points because I was at certain events. Unfortunately, some of these photos were atrocious and should have never ended up on the public internet.
 
-Groups were also a big hit especially in 2011 and 2012. These groups were active places for communication amongst my mates. They died out too. 
+Groups were also a big hit especially in 2011 and 2012. These groups were active places for communication amongst my mates. They died out too.
 
-Then along came a service called Instagram. I used it extensively from 2012 - 2017. A good long run. I don't necessarily have a problem with Instagram apart from the crazy frequent ads that you get when viewing stories. I don't like the fact that they're owned by Facebook but it's not a deal breaker for me. I love React after all! 
+Then along came a service called Instagram. I used it extensively from 2012 - 2017. A good long run. I don't necessarily have a problem with Instagram apart from the crazy frequent ads that you get when viewing stories. I don't like the fact that they're owned by Facebook but it's not a deal breaker for me. I love React after all!
 
 I think the main problem with Instagram is time wasting. It's just an addictive app that many people go to when they're bored.
 

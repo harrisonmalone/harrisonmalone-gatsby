@@ -9,8 +9,8 @@ const About = () => {
         <div>
           <p>
             I'm a teacher and developer working{" "}
-            <a href="https://twitter.com/CoderAcademy_au">@CoderAcademy</a>.
-            I write Ruby and JavaScript. I've worked directly with around 100
+            <a href="https://twitter.com/CoderAcademy_au">@CoderAcademy</a>. I
+            write Ruby and JavaScript. I've worked directly with around 100
             students leading classes and assisting with content development. I
             get excited when I have the chance to tinker with things.
           </p>
@@ -23,28 +23,20 @@ const About = () => {
               Animal Collective
             </a>
             ,{" "}
-            <a href="https://en.wikipedia.org/wiki/The_Beatles">
-              The Beatles
-            </a>{" "}
+            <a href="https://en.wikipedia.org/wiki/The_Beatles">The Beatles</a>{" "}
             and{" "}
-            <a href="ttps://en.wikipedia.org/wiki/Tame_Impala">
-              Tame Impala
-            </a>{" "}
+            <a href="ttps://en.wikipedia.org/wiki/Tame_Impala">Tame Impala</a>{" "}
             all day.
           </p>
           <p>
             I do a bunch of running tending to hit around 40k a week. I post all
             my runs up on{" "}
-            <a href="https://www.strava.com/athletes/24750713">Strava</a>{" "}
-            and compete for{" "}
+            <a href="https://www.strava.com/athletes/24750713">Strava</a> and
+            compete for{" "}
             <a href="http://apsoc.net.au/caulfield-grammarians/">
               Caulfield Grammarians
             </a>
-            . I have a border collie named Tilly{" "}
-            <span role="img" aria-label="doggy">
-              🐶
-            </span>
-            .
+            . I have a border collie named Tilly.
           </p>
         </div>
       </ArticleLayout>

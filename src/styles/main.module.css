@@ -1,21 +1,14 @@
 .about {
-  display: flex; height: 250px; align-items: center;
-}
-.shortAbout {
-  width: 70%;
-}
-.shortAbout a {
-  text-decoration: none; color: inherit; border-bottom: 1px dotted black;
-}
-.shortAbout h1 {
-  font-size: 40px;
-}
-.shortAbout h5 {
-  font-size: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
 }
 
-@media only screen and (max-width: 600px) {
-  .shortAbout {
-    width: 100%;
-  }
+.about p {
+  font-size: 22px;
+  padding: 0px 10px;
+  word-wrap: break-word;
+}
+
+.about a {
+  text-decoration: none; color: inherit; border-bottom: 1px dotted black;
 }

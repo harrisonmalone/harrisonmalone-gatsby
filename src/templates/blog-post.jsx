@@ -13,16 +13,27 @@ export const query = graphql`
       fields {
         slug
       }
+      parent {
+        ... on File {
+          id
+          name
+          birthTime(formatString: "YYYY-MM-DD")
+        }
+      }
     }
   }
 `
 
 const BlogPost = props => {
-  const { frontmatter, fields, html } = props.data.markdownRemark
+  const { frontmatter, fields, html, parent } = props.data.markdownRemark
   return (
     <Layout>
       <>
-        <ArticleLayout title={frontmatter.title} slug={fields.slug}>
+        <ArticleLayout
+          title={frontmatter.title}
+          slug={fields.slug}
+          date={parent.birthTime}
+        >
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </ArticleLayout>
       </>

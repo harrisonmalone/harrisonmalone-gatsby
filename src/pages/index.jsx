@@ -6,7 +6,7 @@ import { graphql } from "gatsby"
 
 export const query = graphql`
   query {
-    allMarkdownRemark(limit: 10) {
+    allMarkdownRemark {
       totalCount
       edges {
         node {

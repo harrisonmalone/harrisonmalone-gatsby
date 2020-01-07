@@ -1,34 +1,33 @@
 import React from "react"
-import styles from "../styles/articles.module.css"
+import articleProcessing from "../utils/article-processing"
 import { Link } from "gatsby"
+import styles from "../styles/articles.module.css"
 
 export default props => {
-  const articles = props.data.allMarkdownRemark.edges.sort((a, b) => Date.parse(b.node.parent.birthTime) - Date.parse(a.node.parent.birthTime))
+  let key
+  const years = articleProcessing(props)
   return (
     <div className={styles.articles}>
-      <div className={styles.articlesTitle}>
-        <h2>Latest Articles</h2>
-        <div className={styles.viewAllBtn}>
-          <p>
-            <a href="/archive">View all</a>
-          </p>
-        </div>
-      </div>
-      <div className={styles.articlesList}>
-        {articles.map((article, index) => {
-          const { frontmatter, fields, parent } = article.node
-          return (
-            <div className={styles.article} key={index}>
-              <Link to={fields.slug}>
-                <h4>
-                  {frontmatter.title}
-                  <span className={styles.date}>{parent.birthTime}</span>
-                </h4>
-              </Link>
-            </div>
-          )
-        })}
-      </div>
+      {years.map((year, index) => {
+        key = Object.keys(year)[0]
+        return (
+          <div key={index}>
+            <h1 className={styles.year}>{key}</h1>
+            {year[key].map((article, index) => {
+              return (
+                <div className={styles.article} key={index}>
+                  <p>
+                    <Link to={article.slug}>{article.title}</Link>&nbsp;
+                    <span style={{ fontSize: "15px" }}>
+                      {article.shortDate}
+                    </span>
+                  </p>
+                </div>
+              )
+            })}
+          </div>
+        )
+      })}
     </div>
   )
 }
