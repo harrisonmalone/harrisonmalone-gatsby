@@ -5,7 +5,7 @@ import ArticleLayout from "../components/article-layout"
 const About = () => {
   return (
     <Layout>
-      <ArticleLayout>
+      <ArticleLayout title="Hi, I'm Harrison">
         <div>
           <p>
             I'm a teacher and developer working{" "}
