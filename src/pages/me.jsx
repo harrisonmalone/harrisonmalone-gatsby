@@ -2,10 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import ArticleLayout from "../components/article-layout"
 
-const About = () => {
+const Me = () => {
   return (
     <Layout>
-      <ArticleLayout title="Hi, I'm Harrison">
+      <ArticleLayout title="Hi, I'm Harrison" slug="/me">
         <div>
           <p>
             I'm a teacher and developer working{" "}
@@ -44,4 +44,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Me
