@@ -14,6 +14,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
+              noInlineHighlight: true,
               aliases: {
                 js: "javascript",
               },

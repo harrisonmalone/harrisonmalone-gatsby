@@ -9,6 +9,11 @@ a {
   color: inherit;
 }
 
+code {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
 .container {
   margin: 0 auto; 
   padding: 0px 20px;
