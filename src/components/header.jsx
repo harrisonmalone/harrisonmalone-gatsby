@@ -8,9 +8,9 @@ const Header = () => {
       <Link to="/" activeClassName={styles.active}>
         Blog
       </Link>
-      <Link to="/me" activeClassName={styles.active}>
-        Me
-      </Link>
+      <a href="https://github.com/harrisonmalone" activeClassName={styles.active}>
+        Code
+      </a>
     </nav>
   )
 }

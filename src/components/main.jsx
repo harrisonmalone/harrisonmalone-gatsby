@@ -6,10 +6,7 @@ const Main = () => {
     <div>
       <div className={styles.about}>
         <p>Hi, I'm Harrison.</p>
-        <p>
-          Here I write about modern JavaScript, Node.js, Ruby and other fun
-          stuff!
-        </p>
+        <p>I currently work at <a href="https://coderacademy.edu.au/">CoderAcademy</a> where I've mentored around 100 students leading classes and assisting with content development.</p>
       </div>
     </div>
   )
