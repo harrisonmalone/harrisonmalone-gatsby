@@ -82,7 +82,7 @@ I had a group of friends that were very into Odd Future at the time. Then this a
 
 ## Good Kid m.A.A.d City: Kendrick Lamar (2012)
 
-Released in towards the end of my first year at university just as I was getting into proper hip-hop. It blew me away. Played many times in my car and at parties over the entire decade.
+Released towards the end of my first year at university; just as I was getting into proper hip-hop. It blew me away. Played many times in my car and at parties over the entire decade.
 
 ### 3
 
