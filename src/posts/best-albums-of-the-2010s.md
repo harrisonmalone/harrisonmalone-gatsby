@@ -39,13 +39,13 @@ I went through a big Mac DeMarco phase and this is by far his best album. A cult
 
 ## Teen Dream: Beach House (2010)
 
-You want to drift off into a whole other world. Put on some Beach House, (especially this album) sit back and relax.
+One of the most versatile and consistent artists of the decade. Beach House works in any setting and is such a go to in my music library. This is their best album but only just; Bloom is a great listen as well! 
 
 ### 10
 
 ## Bon Iver: Bon Iver (2011)
 
-One of the artists that got me into music that wasn't what my dad liked or what was on the radio. Calming music to get you through a busy commute.
+One of the artists that got me into music that wasn't what my dad liked or what was on the radio. Calming music with enough experimentation to keep things interesting.
 
 ### 9
 
