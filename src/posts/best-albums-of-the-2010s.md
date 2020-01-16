@@ -1,14 +1,13 @@
 ---
-title: "The Best Albums of the 2010s"
+title: "Best Albums of the 2010s"
 ---
 
-Since the start of the new year I've been wanting to do a quick list of my favorite albums over the past 10 years. This thinking was inspired by the [Pitchfork piece](https://pitchfork.com/features/lists-and-guides/the-200-best-albums-of-the-2010s/) that ran through a whole 200 albums; a little much for me but none the less a great list. I'm going to do 15 albums and describe each album in a sentence or two. 
+Since the start of the new year I've been wanting to do a quick list of my favorite albums over the past 10 years. I was inspired by this [Pitchfork piece](https://pitchfork.com/features/lists-and-guides/the-200-best-albums-of-the-2010s/) that runs through a whole 200 albums; a little much for me. I'm going to do 15 albums and describe each album in a sentence or two. 
 
-I must admit a few things:
-- I noticed that many of these albums are from the earlier part of the decade, I believe that to truly love an album it needs a good 2 to 3 years of maturation
-- There's a 4 month time frame in 2012 where 4 of these albums were released, this I remember was the best few months of music where I was old enough to appreciate it 
-
-Let's get into it!
+After making the draft list these were some of my general observations:
+- I noticed that many of these albums are from the earlier part of the decade, I think this is because to truly appreciate an album it needs a good 2 to 3 years of maturation
+- There's a 4 month time frame in 2012 where 4 of these albums were released, I remember this was the best few months of music where I was old enough to appreciate it 
+- There are 2 artists with 2 albums which isn't ideal but I can't leave both albums off 
 
 ---
 
@@ -46,13 +45,13 @@ You want to drift off into a whole other world. Put on some Beach House, (especi
 
 ## Bon Iver: Bon Iver (2011)
 
-One of the artists that got me into music that wasn't what my dad liked or what was on the radio. Great well produced album.
+One of the artists that got me into music that wasn't what my dad liked or what was on the radio. Calming music to get you through a busy commute.
 
 ### 9
 
 ## Helplessness Blues: Fleet Foxes (2011)
 
-What shaped a lot of my musical taste over the 2010s was [Anthony Fantano](https://www.youtube.com/user/theneedledrop) and this was his favorite album of 2011. I'm so glad I discovered this. Harmonies to die for. 
+What shaped a lot of my musical taste over the 2010s was [Anthony Fantano](https://www.youtube.com/user/theneedledrop) and this was his favorite album of 2011. I'm so glad I discovered this. The harmonies remind me of the Beach Boy's. 
 
 ### 8
 
@@ -70,7 +69,7 @@ Dance Yrself Clean remains one of the best opening tracks to an album I've ever 
 
 ## InnerSpeaker: Tame Impala (2010)
 
-Memories of this album include playing it loudly out of my first car (a 1995 Suzuki Vitara) which had an excellent CD player. One of those albums that got me into music. The comparison of Kevin Parker's voice to John Lennon's also made me explore more of The Beatles music. 
+Memories of this album include playing it loudly out of my first car (a 1995 Suzuki Vitara) when driving away from my final high school exam. One of those albums that got me into music. The comparison of Kevin Parker's voice to John Lennon's also made me explore more of The Beatles music. 
 
 ### 5
 
