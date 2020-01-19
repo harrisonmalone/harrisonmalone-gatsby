@@ -7,9 +7,7 @@ Since the start of the new year I've been wanting to do a quick list of my favor
 After making the draft list these were some of my general observations:
 - I noticed that many of these albums are from the earlier part of the decade, I think this is because to truly appreciate an album it needs a good 2 to 3 years of maturation
 - There's a 4 month time frame in 2012 where 4 of these albums were released, I remember this was the best few months of music where I was old enough to appreciate it 
-- There are 2 artists with 2 albums which isn't ideal but I can't leave both albums off 
-
----
+- There are 2 artists with 2 albums which isn't ideal but I can't leave both albums off
 
 ### 15
 

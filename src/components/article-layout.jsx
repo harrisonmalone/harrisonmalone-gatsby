@@ -8,8 +8,8 @@ export default props => {
     <div className={styles.article}>
       <h1>
         { title ? <Link to={slug}>{title}</Link> : null}{" "}
-        <span style={{ fontSize: "15px", fontWeight: "normal" }}>{date}</span>
       </h1>
+      <div style={{ fontSize: "15px", fontWeight: "normal" }}>{date}</div>
       {props.children}
     </div>
   )
