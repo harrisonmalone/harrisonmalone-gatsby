@@ -23,14 +23,23 @@ exports.createPages = async ({ graphql, actions }) => {
             fields {
               slug
             }
+            parent {
+              ... on File {
+                id
+                name
+                birthTime(formatString: "YYYY-MM-DD")
+              }
+            }
           }
         }
       }
     }
   `)
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    const date = node.parent.birthTime.split("-")
+    const [year, month] = date
     createPage({
-      path: node.fields.slug,
+      path: `/${year}/${month}` + node.fields.slug,
       component: path.resolve(`./src/templates/blog-post.jsx`),
       context: {
         // Data passed to context is available
