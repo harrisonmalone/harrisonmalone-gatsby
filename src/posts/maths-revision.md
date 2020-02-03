@@ -33,8 +33,7 @@ const oddOneOut = (str) => {
   for (let c of str) {
     if (chars.has(c)) {
       chars.delete(c)
-    }
-    else {
+    } else {
       chars.add(c);
     }
   }
