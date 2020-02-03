@@ -40,7 +40,7 @@ const oddOneOut = (str) => {
 }
 ```
 
-We take in the string as an argument, make a new new, loop through our string characters and then check if the set has the characters in it. We basically toggle between even and odd states; the even state will delete the character from the set. Finally we return an array instead of a set.
+We take in the string as an argument, make a new set, loop through our string characters and then check if the set has the particular character in it. We basically toggle between even and odd states where the even state will delete the character from the set. Finally we return an array instead of a set.
 
 The [second challenge](https://www.codewars.com/kata/56d904db9963e9cf5000037d/javascript) was more of a brain teaser than a real code problem.
 
