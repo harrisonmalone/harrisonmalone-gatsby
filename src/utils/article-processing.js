@@ -22,6 +22,7 @@ export default props => {
       shortDate: shortDate,
     }
   })
+  // will need to change this code
   articles.forEach(article => {
     if (article.date.split("-").includes("2020")) {
       data[0]["2020"].push(article)

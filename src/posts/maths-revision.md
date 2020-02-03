@@ -44,9 +44,9 @@ We take in the string as an argument, make a new new, loop through our string ch
 
 The [second challenge](https://www.codewars.com/kata/56d904db9963e9cf5000037d/javascript) was more of a brain teaser than a real code problem.
 
-You get some test code and need to figure out what the code actually needs to pass the tests.
+You received multiple test cases and needed to figure out what code would pass the tests.
 
-Here's some of the cases:
+Here's some of the cases you were given:
 
 ```js
 testit(0,1)
@@ -61,7 +61,7 @@ testit(1,3)
 // => 3
 ```
 
-See any patterns. I tried a bunch of maths operators but couldn't spot what I needed.
+See any patterns? I tried a bunch of maths operators but couldn't spot what I needed.
 
 Turns out it was the bitwise OR:
 
