@@ -23,7 +23,7 @@ I'd then push the individual characters into my result array if they passed a si
 
 Time out after time out and I was pulling my hair out.
 
-Turns out what I wasn't thinking of was using a `Set`. I guess I haven't had a real need to reach for sets but they're a perfect data structure for this question.
+What I wasn't thinking of was using a `Set`. I guess I haven't had a real need to reach for sets but they're a perfect data structure for this question.
 
 The answer I liked was this:
 
