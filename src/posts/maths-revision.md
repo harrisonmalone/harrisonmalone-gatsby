@@ -55,8 +55,6 @@ testit(0,1)
 // => 1
 testit(1,2)
 // => 3
-testit(10,20)
-// => 30
 testit(1,1)
 // => 1
 testit(1,3)
