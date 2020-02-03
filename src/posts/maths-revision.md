@@ -31,10 +31,12 @@ The answer I liked was this:
 const oddOneOut = (str) => {
   let chars = new Set()
   for (let c of str) {
-    if (chars.has(c))
+    if (chars.has(c)) {
       chars.delete(c)
-    else
+    }
+    else {
       chars.add(c);
+    }
   }
   return Array.from(chars)
 }
