@@ -59,7 +59,7 @@ const rowSumOddNumbers = (n) => {
 }
 ```
 
-Up front I define some variables; my array that I'll return and the inner arrays contained within it. I also define a `count` variable which will increment off numbers (starting at 1) and a `len` variable that will simply keep track of the shape of my triangle.
+Up front I define some variables; my array that I'll return and the inner arrays contained within it. I also define a `count` variable which will increment odd numbers (starting at 1) and a `len` variable that will simply keep track of the shape of my triangle.
 
 The while loop starts and my condition is for it to keep running until my return array is the same length as `n`.
 
