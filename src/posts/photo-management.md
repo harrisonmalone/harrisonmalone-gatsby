@@ -6,11 +6,11 @@ Photo storage and management has long been something I care a lot about. I like 
 
 Unfortunately, I've never really properly sat down and dedicated time to learning how automate my photo management process with scripts. This was until these last 2 days.
 
-Now let's start at the beginning. Like many people with an iPhone I used iCloud Photo Library for many years but found it slow and unreliable. I know this has changed in recent years but Apple is just not good at cloud. I switched to Google Photo's and this was better; but then I hated losing quality in my photos and at this point has started to distrust Google's products. 
+Now lets start at the beginning. Like many people with an iPhone I used iCloud Photo Library for many years but found it slow and unreliable. I know this has changed in recent years but Apple is just not good at cloud. I switched to Google Photo's and this was better; but then I hated losing quality in my photos and at this point had started to distrust Google's products. 
 
-I also had a hard disk drive that had a bunch of older files on there. I needed to get these images off it before it fully failed. There was golden moments from family holidays on there.
+I also had a hard disk drive that had a bunch of older images on there. I needed to get these files off it before it fully failed. There was some golden moments from family holidays on there.
 
-I eventually adopted a simple strategy of using Airdrop on a monthly basic to send photo's to my Mac where I'd store them on a USB. I also ran this shell script on the photo's so they had some kind of naming convention:
+I eventually adopted a simple strategy of using Airdrop on a monthly basis to send photo's from my iPhone to to my Mac where I'd store them on a USB. I also ran this shell script on the photo's so they had some kind of naming convention:
 
 ```bash
 ls | cat -n | while read n f; do mv "$f" "$n.jpg"; done
@@ -44,11 +44,18 @@ Plans were drawn up. My proposal was having a folder structure like this:
 |   └── 02
 ```
 
-This again was okay but the `1.jpg` name is the problem still. It's just not informative enough. I could script the sorting of these photos by using the `mdls` command and using Ruby to split the string returned from the command to access the metadata.
+I could script the sorting of these photos by using the `mdls` command and using Ruby to split the string returned from the command to access the metadata.
+
+```rb
+command = `mdls #{file}`
+# then split the command and access the metadata
+```
+
+This again is okay but the `1.jpg` name is the problem still. It's just not informative enough. 
 
 I also realized at this point that many of my photos had broken metadata. This meant that I couldn't access the data for when the photo was taken and consequently couldn't use my Ruby script correctly. The reason why the metadata was broken was because many of my images had gone in and out of Facebook land. Images get drunk in Facebook land and forget when they were born.
 
-I should also say here that at this point I realized that the metadata attributes had something to do with the [Exif standards](https://en.wikipedia.org/wiki/Exif). These are standards for images produced digitally. I did some research about Exif and found that there were a couple of command line tools you could use to manipulate and query this Exif data. The one that I saw pop up the most was [exiftool](https://formulae.brew.sh/formula/exiftool). 
+I should also say here that at this point I realized that the metadata attributes had something to do with the [Exif standards](https://en.wikipedia.org/wiki/Exif). These are the standards for all (most?) digital photography. I did some research about Exif and found that there were a couple of command line tools you could use to manipulate and query this Exif data. The one that I saw pop up the most was [exiftool](https://formulae.brew.sh/formula/exiftool). 
 
 To install exiftool on MacOS run:
 
@@ -56,7 +63,7 @@ To install exiftool on MacOS run:
 brew install exiftool
 ```
 
-I took a deep dive into exiftool and found heaps of good Stack Overflow examples. Here is the workflow I ended up with starting with the photos that had valid Exif data.
+I took a deep dive into exiftool and found heaps of [good examples](https://arslan.io/2018/04/18/tips-tricks-to-batch-edit-exif-metadata-of-photos/). Here is the workflow I ended up with starting with the photos that had valid Exif data.
 
 ```
 exiftool "-Directory<DateTimeOriginal" -d "%Y/%Y-%m-%d" .
