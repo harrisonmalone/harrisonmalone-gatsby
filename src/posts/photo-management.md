@@ -34,11 +34,11 @@ Plans were drawn up. My proposal was having a folder structure like this:
 ```
 ├── 2020
 |   ├── 01
-|   |    ├── 1.jpg
-|   |    └── 2.jpg
+|   |   ├── 1.jpg
+|   |   └── 2.jpg
 |   └── 02
-|        ├── 1.jpg
-|        └── 2.jpg
+|       ├── 1.jpg
+|       └── 2.jpg
 ├── 2019
 |   ├── 01
 |   └── 02
@@ -67,11 +67,11 @@ It's a one liner! All that work I did with my Ruby and I just needed a brew inst
 ```
 ├── 2020
 |   ├── 2020-04-08
-|   |    ├── 1.jpg
-|   |    └── 2.jpg
+|   |   ├── 1.jpg
+|   |   └── 2.jpg
 |   └── 2020-04-07
-|        ├── 1.jpg
-|        └── 2.jpg
+|       ├── 1.jpg
+|       └── 2.jpg
 ```
 
 You can see that images are now in a year and full date folder structure which is approaching exactly what I want. There's just one more problem which is the naming of the files.
@@ -90,8 +90,8 @@ This iterates through all of my nice folders in the full date format (2020-04-08
 ```
 ├── 2020
     ├── 2020-04-08
-         ├── 20200408_090208.jpg
-         └── 20200408_090413.jpg
+        ├── 20200408_090208.jpg
+        └── 20200408_090413.jpg
 ```
 
 Perfect! I'm very happy with the level of detail I get!
