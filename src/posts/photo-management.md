@@ -1,3 +1,7 @@
+---
+title: "Photo Management"
+---
+
 Photo storage and management has long been something I care a lot about. I like good olf fashioned folder structure and naming conventions and hugely dislike a scattered and disorganized approach to managing these important memories.
 
 Unfortunately, I've never really properly sat down and dedicated time to learning how automate my photo management process with scripts. This was until these last 2 days.
