@@ -102,21 +102,22 @@ The final and rather annoying issue to solve was the photos that lacked proper E
 2. Copying these photos out into another directory
 3. Running this Ruby script on all the photos in the copied directory 
 
-  ```rb
-  time = 130000
-  Dir.foreach('.') do |file|
-    if file.include?(".jpg")
-      `mv #{file} 20060101_#{time}.jpg`
-    end 
-    time += 1
+```rb
+time = 130000
+Dir.foreach('.') do |file|
+  if file.include?(".jpg")
+    `mv #{file} 20060101_#{time}.jpg`
   end 
-  ```
+  time += 1
+end 
+```
 
-  This script ensures that all images in the current directory have a name in the correct format which `exiftool` can then use to create new metadata attributes. I'm still unsure on a few things on this script though such as:
+This script ensures that all images in the current directory have a name in the correct format which `exiftool` can then use to create new metadata attributes. I'm still unsure on a few things on this script though such as:
 
-  - Why the counter doesn't perfectly increment by 1, some of the files jump in increments of 2 or 3?
-  - Why 130000 is 2AM?
-  
+- Why the counter doesn't perfectly increment by 1, some of the files jump in increments of 2 or 3?
+- Why 130000 is 2AM?
+
+---
 
 4. Now each image is correctly named I can run `exiftool "-AllDates<filename" *` which sets the Exif date, I'm aware that all images will be Jan the 1st but at least they're in the correct year, I might painstakingly go through these images and put them in the correct month eventually
 5. Run this command `exiftool "-Directory<DateTimeOriginal" -d "%Y/%Y-%m-%d" .` to verify everything is correct, it would just put the images into the year and full data folder structure
