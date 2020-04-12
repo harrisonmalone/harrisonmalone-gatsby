@@ -96,9 +96,9 @@ This iterates through all of my nice folders in the full date format (2020-04-08
 
 ```
 ├── 2020
-    ├── 2020-04-08
-        ├── 20200408_090208.jpg
-        └── 20200408_090413.jpg
+|   ├── 2020-04-08
+|       ├── 20200408_090208.jpg
+|       └── 20200408_090413.jpg
 ```
 
 Perfect! I'm very happy with the level of detail I get!
