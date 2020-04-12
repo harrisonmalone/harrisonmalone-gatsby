@@ -116,6 +116,7 @@ The final and rather annoying issue to solve was the photos that lacked proper E
 
   - Why the counter doesn't perfectly increment by 1, some of the files jump in increments of 2 or 3?
   - Why 130000 is 2AM?
+  
 
 4. Now each image is correctly named I can run `exiftool "-AllDates<filename" *` which sets the Exif date, I'm aware that all images will be Jan the 1st but at least they're in the correct year, I might painstakingly go through these images and put them in the correct month eventually
 5. Run this command `exiftool "-Directory<DateTimeOriginal" -d "%Y/%Y-%m-%d" .` to verify everything is correct, it would just put the images into the year and full data folder structure
