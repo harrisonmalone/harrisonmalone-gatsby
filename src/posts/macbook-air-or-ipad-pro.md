@@ -18,10 +18,10 @@ The table below is listing the pros and cons of buying a MacBook Air.
 
 Here are some other rambling thoughts:
 
-- My phone becomes my iOS hub for things like WhatsApp and Messenger which i barely use anyway
+- My phone becomes my iOS hub for things like WhatsApp and Messenger which I barely use anyway
 - Means no more Apple Pencil wireframes, probably not doing many wireframes anyway
 - The Mac would be very pure, use Apple Podcasts, Music and TV
-- Very familiar with setting up the Mac and having it just the way i like it
+- Very familiar with setting up the Mac and having it just the way I like it
 - When im moving around the house put AirPods in and use iPhone for media
 - Laptop will be fine to carry around and have a dining table and stuff like that
 - Mum gets my iPad which is a nice thing to give away, despite it being old it does still work quite well
