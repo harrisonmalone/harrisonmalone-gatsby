@@ -1,3 +1,13 @@
+table {
+  border-collapse: collapse;
+  font-size: 22px;
+}
+
+table, th, td {
+  border-bottom: 1px solid black;
+  padding: 10px 3px;
+}
+
 .articles {
   margin: 30px 0px;
 }

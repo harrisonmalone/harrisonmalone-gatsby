@@ -11,10 +11,10 @@ The table below is listing the pros and cons of buying a MacBook Air.
 |Pros                                                                   |Cons                                                         |
 |-----------------------------------------------------------------------|-------------------------------------------------------------|
 |Certainly better for typing and just generally doing work              | Not switching contexts between work and home                |
-|Install game emulators on that machine and it not being weird          | Maybe performance slower? probably not a bit deal           |
-|Better in terms of messages                                            | Too be seen if i can fix texting issues                     |
-|If i left work id have a useable computer for code                     | This is a massive pro arguably the biggest and most obvious |
-|Journaling in plain text could be kind of freeing already do this a bit| Lose Apple Pencil support                                   |
+|Install game emulators on that machine and it not being weird          | Maybe performance slower? Probably not a big deal           |
+|Better in terms of messages                                            | Too be seen if I can fix texting issues                     |
+|If I left work I'd have a useable computer for code                    | This is a massive pro arguably the biggest and most obvious |
+|Journaling in plain text could be kind of freeing, already doing this a bit| Lose Apple Pencil support                                   |
 
 Here are some other rambling thoughts:
 
