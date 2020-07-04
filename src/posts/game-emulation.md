@@ -1,3 +1,7 @@
+---
+title: "Game Emulation"
+---
+
 After many years of trying things on many different devices I've finally settled on a solution for retro gaming emulation. My emulation journey started on an old Windows PC that had a weird frontend and simply wasn't able to perform properly with PS1 games.
 
 I then took a bit of a break before dabbling with emulation again after getting a Raspberry Pi 4 for Christmas. I read into [Retro Pi](https://retropie.org.uk/) but didn't end up doing a full install due to there being no official support for the 4. I instead opted for [Lakka](http://www.lakka.tv/). It was a pretty impressive piece of software. The frontend was basically the same as a PS3 and writing the image onto the SD card was a fun process.
