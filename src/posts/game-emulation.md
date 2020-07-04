@@ -1,5 +1,6 @@
 ---
 title: "Game Emulation"
+date: "2020-07-04"
 ---
 
 After many years of trying things on many different devices I've finally settled on a solution for retro gaming emulation. My emulation journey started on an old Windows PC that had a weird frontend and simply wasn't able to perform properly with PS1 games.

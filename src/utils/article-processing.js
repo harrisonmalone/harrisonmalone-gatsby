@@ -12,7 +12,6 @@ export default props => {
       return Date.parse(b.node.frontmatter.date) - Date.parse(a.node.frontmatter.date)
     }
   )
-  console.log(sortedArticles)
   const articles = sortedArticles.map(article => {
     const date = article.node.frontmatter.date
     const splitDate = article.node.frontmatter.date.split("-")

@@ -11,7 +11,6 @@ const linkDateFormat = (date) => {
 export default props => {
   let key
   const years = articleProcessing(props)
-  console.log(years)
   return (
     <div className={styles.articles}>
       {years.map((year, index) => {
