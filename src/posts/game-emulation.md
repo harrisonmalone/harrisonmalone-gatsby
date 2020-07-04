@@ -3,25 +3,29 @@ title: "Game Emulation"
 date: "2020-07-04"
 ---
 
-After many years of trying things on many different devices I've finally settled on a solution for retro gaming emulation. My emulation journey started on an old Windows PC that had a weird frontend and simply wasn't able to perform properly with PS1 games.
+After many years of trying things on many different devices I've finally settled on a solution for retro gaming emulation.
 
-I then took a bit of a break before dabbling with emulation again after getting a Raspberry Pi 4 for Christmas. I read into [Retro Pi](https://retropie.org.uk/) but didn't end up doing a full install due to there being no official support for the 4. I instead opted for [Lakka](http://www.lakka.tv/). It was a pretty impressive piece of software. The frontend was basically the same as a PS3 and writing the image onto the SD card was a fun process.
+For starters, I love old games. I grew up with a PS1 and fell it love with games like [Crash Bandicoot](https://en.wikipedia.org/wiki/Crash_Bandicoot), [Spyro](https://en.wikipedia.org/wiki/Spyro) and [Tekken](https://en.wikipedia.org/wiki/Tekken). I almost feel a need to preserve these pieces of art forever on my own hard drives. 
 
-The problem unfortunately was performance. I should have bought some sort of fan or heat sink for the Pi but it was still seriously hot whilst running any game. Even SNES games the Pi struggled and the experience wasn't quite up to scratch. Playable but not up to my standards.  
+My interested in emulation started in 2015 with an old university laptop. It simply wasn't able to perform properly with the games I wanted to play.
+
+I then took a bit of a break before dabbling with emulation again after getting a Raspberry Pi 4 for Christmas last year. I read into [Retro Pi](https://retropie.org.uk/) but didn't end up doing a full install due to there being no official support for the 4. I instead opted for [Lakka](http://www.lakka.tv/). It was a pretty impressive piece of software. The frontend was basically the same as a PS3 and writing the image onto the SD card was a fun process.
+
+The problem unfortunately was performance. I should have bought some sort of fan or heat sink for the Pi as it ran seriously hot whilst playing any game. Even SNES games were laggy and generally the experience wasn't quite up to scratch.  
 
 Then COVID came along. I needed something to do with all my extra time at home and like many people gaming was an excellent solution. I don't own any modern consoles (I am considering getting a Switch at some point) so emulation was again the go to. I still have the Pi but I wasn't going to give that a try again after the failures with Lakka. My only other viable computing device (at the time) was my work 13 inch MacBook Pro (2019, quad core i5, 8GB ram). 
 
 I did some basic research and quickly found out about [OpenEmu](https://openemu.org/). It was exactly what I'd always wanted. It abides by the classic Apple ethos of "it just works" and is a beautiful Mac app.
 
-You just need your roms and the bios for playing PS1 games. There are heaps of different sites for roms; [this is one](https://cdromance.com/) I recommend. The correct bios is easy enough to find you just need some Google skills. Bare in mind all of this is technically illegal so make your best judgement. 
+You just need your roms and the bios for playing PS1 games. There are heaps of different sites for roms; [this is one](https://cdromance.com/) I recommend. The correct bios is easy enough to find you just need some Google skills.
 
 I like the simple drag and drop UI of OpenEmu and also the fact that it basically looks like Apple Music. The game cover art is automatically populated when you drag new roms in which I also like.
 
 And the performance... really really good. Basically all the PS1 and SNES games that I've played run flawlessly. I don't think there's a lot of performance differences between the games running on original consoles verses my emulation environment. This is what I expect. There should be no lag or glitches. 
 
-One thing I'll say about performance is that the Mac you use will make a difference. I've used OpenEmu on three different machines now. The 13 inch MacBook Pro I mentioned, a MacBook Air (2020, quad core i5, 8GB ram) and a 16 inch MacBook Pro (2019, 6 core i7, 16GB ram). The 16 inch also comes with an AMD Radeon Pro 5300M GPU so it's a much more expensive machine and as expected plays everything great! Sadly I did notice some performance dips with the Air. Playable gaming but a bit laggy.   
+One thing I'll say about performance is that the Mac you use will make a difference. I've used OpenEmu on three different machines now. The 13 inch MacBook Pro I mentioned, a MacBook Air (2020, quad core i5, 8GB ram) and a 16 inch MacBook Pro (2019, 6 core i7, 16GB ram). The 16 inch also comes with an AMD Radeon Pro 5300M GPU so it's a much more expensive machine and as expected plays everything great! Sadly I did notice some performance dips with the Air but games were still playable.
 
-Something else I really appreciate about OpenEmu is the load times. It preserves your save state! When you quit a game you click on the stop emulation button and close the app. Then when you reopen the app and play the same game it's in exactly the same state as when you stopped last time.
+Something else I really appreciate about OpenEmu are the save states. When you quit a game you click on the stop emulation button and close the app. Then when you reopen the app and play the same game it's in exactly the same state as when you stopped last time. So nice!
 
 When I started out with the Pi and also early days with OpenEmu I used a PS3 dual shock controller. It worked great and was easy to connect to with MacOS. I can recommend this as a good experience if you're just starting out with emulation. If you want a next level emulation experience and are willing to spend a little bit I can't recommend highly enough the [8Bitdo SN30 Pro](https://www.amazon.com.au/dp/B0748S1VDC/ref=twister_B075FDTVX9?_encoding=UTF8&psc=1) controller. It's just brilliant in terms of build quality and feel.  
 
