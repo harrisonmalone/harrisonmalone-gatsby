@@ -7,7 +7,7 @@ After many years of trying things on many different devices I've finally settled
 
 For starters, I love old games. I grew up with a PS1 and fell it love with games like [Crash Bandicoot](https://en.wikipedia.org/wiki/Crash_Bandicoot), [Spyro](https://en.wikipedia.org/wiki/Spyro) and [Tekken](https://en.wikipedia.org/wiki/Tekken). I almost feel a need to preserve these pieces of art forever on my own hard drives. 
 
-My interested in emulation started in 2015 with an old university laptop. It simply wasn't able to perform properly with the games I wanted to play.
+My interest in emulation started in 2015 with an old university laptop. It simply wasn't able to perform properly with the games I wanted to play.
 
 I then took a bit of a break before dabbling with emulation again after getting a Raspberry Pi 4 for Christmas last year. I read into [Retro Pi](https://retropie.org.uk/) but didn't end up doing a full install due to there being no official support for the 4. I instead opted for [Lakka](http://www.lakka.tv/). It was a pretty impressive piece of software. The frontend was basically the same as a PS3 and writing the image onto the SD card was a fun process.
 
