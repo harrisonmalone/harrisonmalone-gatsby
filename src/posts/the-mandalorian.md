@@ -1,5 +1,6 @@
 ---
 title: "The Mandalorian"
+date: "2019-12-24"
 ---
 
 My favorite show of 2019 was [The Madalorian](https://en.wikipedia.org/wiki/The_Mandalorian). Viewing the finale of the season was a nice way to end the year after the massive disappointment of [The Rise of Skywalker](https://en.wikipedia.org/wiki/Star_Wars:_The_Rise_of_Skywalker).

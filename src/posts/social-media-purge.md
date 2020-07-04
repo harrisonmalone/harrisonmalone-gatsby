@@ -1,5 +1,6 @@
 ---
 title: "Social Media Purge"
+date: "2019-12-30"
 ---
 
 The end of my time using Facebook, Instagram and Twitter has arrived. This morning I deactivated all of my accounts associated with each service. I'll try to explain my reasons for this and what I intend to achieve because of this decision.

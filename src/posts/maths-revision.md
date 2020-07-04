@@ -1,5 +1,6 @@
 ---
 title: "Maths Revision"
+date: "2020-02-03"
 ---
 
 I spent a bunch of time today completing some [Code Wars](https://www.codewars.com/) challenges. I realized I need to revise some maths. I also realized that I need to practice solving algorithm type questions far more frequently.

@@ -1,5 +1,6 @@
 ---
 title: "Best Albums of the 2010s"
+date: "2020-01-16"
 ---
 
 Since the start of the new year I've been wanting to do a quick list of my favorite albums over the past 10 years. I was inspired by this [Pitchfork piece](https://pitchfork.com/features/lists-and-guides/the-200-best-albums-of-the-2010s/) that runs through a whole 200 albums; a little much for me. I'm going to do 15 albums and describe each album in a sentence or two. 

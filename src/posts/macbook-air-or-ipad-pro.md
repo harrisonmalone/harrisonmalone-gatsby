@@ -1,5 +1,6 @@
 ---
 title: "MacBook Air or iPad Pro?"
+date: "2020-05-15"
 ---
 
 My iPad Pro that I bought in Santa Monica in August 2017 has started to show a bit of age. Its battery life is really shaky and the Smart Keyboard has stopped connecting all together.

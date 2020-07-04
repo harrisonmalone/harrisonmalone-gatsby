@@ -30,20 +30,21 @@ exports.createPages = async ({ graphql, actions }) => {
                 birthTime(formatString: "YYYY-MM-DD")
               }
             }
+            frontmatter {
+              date
+            }
           }
         }
       }
     }
   `)
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    const date = node.parent.birthTime.split("-")
+    const date = node.frontmatter.date.split("-")
     const [year, month] = date
     createPage({
       path: `/${year}/${month}` + node.fields.slug,
       component: path.resolve(`./src/templates/blog-post.jsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
         slug: node.fields.slug,
       },
     })

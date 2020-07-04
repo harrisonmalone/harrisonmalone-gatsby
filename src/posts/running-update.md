@@ -1,5 +1,6 @@
 ---
 title: "Running Update"
+date: "2020-02-11"
 ---
 
 This will be a quick little update on my running. I'll also include what my current gear is and my training schedule. It's nothing too special so don't get your hopes up!
