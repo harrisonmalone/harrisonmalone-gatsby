@@ -8,12 +8,14 @@ export default props => {
     },
   ]
   const sortedArticles = props.data.allMarkdownRemark.edges.sort(
-    (a, b) =>
-      Date.parse(b.node.parent.birthTime) - Date.parse(a.node.parent.birthTime)
+    (a, b) => {
+      return Date.parse(b.node.frontmatter.date) - Date.parse(a.node.frontmatter.date)
+    }
   )
+  console.log(sortedArticles)
   const articles = sortedArticles.map(article => {
-    const date = article.node.parent.birthTime
-    const splitDate = article.node.parent.birthTime.split("-")
+    const date = article.node.frontmatter.date
+    const splitDate = article.node.frontmatter.date.split("-")
     const shortDate = `${splitDate[1]}-${splitDate[2]}`
     return {
       title: article.node.frontmatter.title,

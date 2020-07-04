@@ -9,6 +9,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        date
       }
       fields {
         slug
@@ -25,14 +26,14 @@ export const query = graphql`
 `
 
 const BlogPost = props => {
-  const { frontmatter, fields, html, parent } = props.data.markdownRemark
+  const { frontmatter, fields, html } = props.data.markdownRemark
   return (
     <Layout>
       <>
         <ArticleLayout
           title={frontmatter.title}
           slug={fields.slug}
-          date={parent.birthTime}
+          date={frontmatter.date}
         >
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </ArticleLayout>

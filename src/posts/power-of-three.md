@@ -1,5 +1,6 @@
 ---
 title: "Power of Three"
+date: "2020-02-08"
 ---
 
 I attacked another nice little [Code Wars](https://www.codewars.com) challenge a couple of days ago. This one I had less trouble solving than what I saw in the previous post but had an interesting alternative answer at the end.

@@ -9,6 +9,7 @@ const linkDateFormat = (date) => {
 
 export default props => {
   const { title, slug, date } = props
+  console.log(date)
   const [year, month] = linkDateFormat(date)
   return (
     <div className={styles.article}>

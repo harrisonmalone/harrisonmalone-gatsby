@@ -1,5 +1,6 @@
 ---
 title: "Photo Management"
+date: "2020-04-12"
 ---
 
 Photo storage and management has long been something I care a lot about. I like good old fashioned folder structure and naming conventions and hugely dislike a scattered and disorganized approach to managing these important files.

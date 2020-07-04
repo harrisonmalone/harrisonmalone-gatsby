@@ -1,5 +1,6 @@
 ---
 title: "Hello World"
+date: "2020-01-07"
 ---
 
 After finally doing the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/) and making this blog with the stack I'm sold on it's utility. It's clearly the best way for me to make a static website that can easily consume and display content written in Markdown. 
