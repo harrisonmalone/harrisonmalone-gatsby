@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://www.harrisonmalone.dev`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -7,6 +10,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -23,6 +27,6 @@ module.exports = {
         ],
       },
     },
-    "gatsby-plugin-react-helmet",
+    `gatsby-plugin-react-helmet`,
   ],
 }
