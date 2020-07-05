@@ -9,7 +9,7 @@ This is [the challenge](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064) 
 
 You're given a triangle of consecutive odd numbers
 
-```txt
+```
              1
           3     5
        7     9    11
@@ -20,7 +20,7 @@ You're given a triangle of consecutive odd numbers
 
 and you need calculate the sum of the given row index. So given the index 3 as an argument you'd need to perform this calculation 
 
-```txt
+```
 7 + 9 + 11 = 27
 ```
 
@@ -78,7 +78,7 @@ But step back for a second and look at the question again.
 
 Here's the sum of return values that apply to the first 5 rows of the triangle.
 
-```txt
+```
 1 8 27 64 125
 ```
 

@@ -73,7 +73,7 @@ const testit = (a, b) => {
 
 If we pass 10 and 20 as arguments the numbers are converted to binary (1010 and 10100) where we perform an OR
 
-```txt
+```
 10100
 01010
 ---

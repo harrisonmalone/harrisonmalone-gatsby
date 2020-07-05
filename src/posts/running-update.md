@@ -15,7 +15,7 @@ I just need to wake up and run a couple of kilometers and everything starts feel
 
 The distances of my runs currently look something like this.
 
-```txt
+```
 Tuesday 40 mins 
 Thursday 40 mins 
 Saturday 50 mins 
