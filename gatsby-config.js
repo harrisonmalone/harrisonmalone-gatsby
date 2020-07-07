@@ -27,7 +27,7 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
-                const splitDate = date.split("-")
+                const splitDate = edge.node.frontmatter.date.split("-")
                 const year = splitDate[0]
                 const month = splitDate[1].substring(0, 2)
                 return Object.assign({}, edge.node.frontmatter, {
