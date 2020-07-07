@@ -5,7 +5,7 @@ import styles from "../styles/articles.module.css"
 
 const linkDateFormat = (date) => {
   const splitDate = date.split("-")
-  return [splitDate[0], splitDate[1]]
+  return [splitDate[0], splitDate[1].substring(0, 2)]
 }
 
 export default props => {

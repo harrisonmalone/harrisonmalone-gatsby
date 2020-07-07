@@ -33,7 +33,7 @@ const BlogPost = props => {
         <ArticleLayout
           title={frontmatter.title}
           slug={fields.slug}
-          date={frontmatter.date}
+          date={frontmatter.date.includes("T") ? frontmatter.date.split("T")[0] : frontmatter.date}
         >
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </ArticleLayout>

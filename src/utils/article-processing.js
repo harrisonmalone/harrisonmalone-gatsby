@@ -15,7 +15,7 @@ export default props => {
   const articles = sortedArticles.map(article => {
     const date = article.node.frontmatter.date
     const splitDate = article.node.frontmatter.date.split("-")
-    const shortDate = `${splitDate[1]}-${splitDate[2]}`
+    const shortDate = `${splitDate[1]}-${splitDate[2].substring(0, 2)}`
     return {
       title: article.node.frontmatter.title,
       date: date,
