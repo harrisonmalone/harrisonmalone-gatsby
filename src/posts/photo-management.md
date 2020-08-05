@@ -123,7 +123,7 @@ end
 This script ensures that all images in the current directory have a name in the correct format which `exiftool` can then use to create new metadata attributes. I'm still unsure on a few things on this script though such as:
 
 - Why the counter doesn't perfectly increment by 1, some of the files jump in increments of 2 or 3?
-- Why 130000 is 2AM?
+- Why is 130000 2AM?
 
 ---
 
